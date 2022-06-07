@@ -1,0 +1,10 @@
+let d = new Date(document.lastModified);
+let day = d.getDay();
+let month = d.getMonth();
+let fullyear = d.getFullYear()
+let hour = d.getHours();
+let minutes = d.getMinutes();
+let seconds = d.getSeconds();
+let time = hour + ":" + minutes + ":" + seconds;
+let fulldate =  month + "/" + day + "/" + fullyear + " " + time; 
+document.getElementById("currentdate").textContent = fulldate;

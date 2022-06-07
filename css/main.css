@@ -1,15 +1,22 @@
 
+* {
+    margin: 10px;
+}
 header, footer  {
 	background-color: aqua;
 	width: 60%;
+	display: grid;
+    grid-template-rows: 2fr;
+    justify-content: center;
 
 }
 
 pagebody {
-
+	box-sizing: content-box;
+	position: relative;
 
 }
 
 myPic {
-
+	position:absolute;
 }
