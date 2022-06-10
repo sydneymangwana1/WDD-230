@@ -1,22 +1,33 @@
 
 * {
     margin: 10px;
+	
 }
-header, footer  {
+.header {
 	background-color: aqua;
 	width: 60%;
+	text-align: center;
+	padding: 20px;
+}
+
+.footer {
+	background-color: aqua;
+	width: 60%;
+	text-align: center;
+	padding: 50px;
+}
+
+.main {
 	display: grid;
-    grid-template-rows: 2fr;
-    justify-content: center;
+	grid-template-columns: 1fr 1fr;
 
 }
 
-pagebody {
-	box-sizing: content-box;
-	position: relative;
-
+.mainbody {
+	grid-column: 1/2;
+	
 }
 
-myPic {
-	position:absolute;
+.myPic {
+	float: right;
 }
