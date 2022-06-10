@@ -7,4 +7,4 @@ let minutes = d.getMinutes();
 let seconds = d.getSeconds();
 let time = hour + ":" + minutes + ":" + seconds;
 let fulldate =  month + "/" + day + "/" + fullyear + " " + time; 
-document.getElementById("currentdate").textContent = fulldate;
+document.getElementById("lastupdated").textContent = fulldate;
