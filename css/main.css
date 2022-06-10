@@ -3,18 +3,11 @@
     margin: 10px;
 	
 }
-.header {
+.header, .footer {
 	background-color: aqua;
 	width: 60%;
 	text-align: center;
-	padding: 20px;
-}
-
-.footer {
-	background-color: aqua;
-	width: 60%;
-	text-align: center;
-	padding: 50px;
+	padding: 30px;
 }
 
 .main {
@@ -24,8 +17,7 @@
 }
 
 .mainbody {
-	grid-column: 1/2;
-	
+	grid-column: 1/2;	
 }
 
 .myPic {
