@@ -12,6 +12,7 @@
 
 	/* grid-row-start: 1;
 	grid-column-start: 1; */
+
 	background-color: aqua;
 	width: 60%;
 	text-align: center;
@@ -32,6 +33,7 @@
 }
 
 .weekly-content {
+	padding: 20px;
 	grid-row-start: 3;
 	text-align: left;
 }
@@ -42,6 +44,6 @@ hr {
   }
 
 .myPic {
-	margin-top: 10px;
+	position: relative;
 	float: right;
 } 
