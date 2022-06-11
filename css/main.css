@@ -3,23 +3,45 @@
     margin: 10px;
 	
 }
-.header, .footer {
+
+.pagecontent {
+	display: grid;
+	grid-template-rows:1fr 1fr 1fr 1fr;
+}
+.header {
+
+	/* grid-row-start: 1;
+	grid-column-start: 1; */
 	background-color: aqua;
 	width: 60%;
 	text-align: center;
 	padding: 30px;
 }
 
-.main {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-
+.footer-content {
+	grid-row-start: 4;
+	background-color: aqua;
+	width: 60%;
+	text-align: center;
+	padding: 40px;
 }
 
-.mainbody {
-	grid-column: 1/2;	
+.subject {
+	grid-row-start: 2;
+	text-align: left;
 }
+
+.weekly-content {
+	grid-row-start: 3;
+	text-align: left;
+}
+
+hr {
+	height: 0;
+	width: 50%;
+  }
 
 .myPic {
+	margin-top: 10px;
 	float: right;
-}
+} 
