@@ -47,6 +47,8 @@ h3, h4, h5, h6 {
 }
 
 .myPic {
+	height: auto;
+	box-shadow: 0 0 30px rgb(216, 177, 177);
 	float: right;
 } 
 
@@ -60,9 +62,3 @@ h3, h4, h5, h6 {
 	text-align: left;
 }
 
-@media all and (max-width: 375px) {
-	.week1-content {
-		display:grid;
-		grid-template-columns: 1fr;
-	}
-}
