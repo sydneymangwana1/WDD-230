@@ -55,19 +55,8 @@ h3, h4, h5, h6 {
 	grid-template-columns: 1fr 1fr 1fr;
 }
 
-.warmac-content {
-	align-content: center;
-}
 
-.warmac-description {
-	text-align: center;
-}
-
-
-.zamoto-description {
-	text-align: center;
-}
-
-asos-description {
-	text-align: center;
+.warmac-description, .zamoto-description, .asos-description {
+	width: 50%;
+	text-align: left;
 }
