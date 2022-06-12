@@ -59,3 +59,10 @@ h3, h4, h5, h6 {
 	width: 50%;
 	text-align: left;
 }
+
+@media all and (max-width: 375px) {
+	.week1-content {
+		display:grid;
+		grid-template-columns: 1fr;
+	}
+}
