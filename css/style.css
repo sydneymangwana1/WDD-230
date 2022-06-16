@@ -73,6 +73,7 @@ ul {
 	display: inline-flex;
 	background-color: aqua;
 	font-size:xx-large;
+	overflow: hidden;
 }
 
 ol {
