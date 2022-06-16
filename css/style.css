@@ -75,4 +75,7 @@ ul {
 	font-size:xx-large;
 
 }
+ol {
+	list-style: none;
+}
 
