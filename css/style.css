@@ -15,9 +15,6 @@ h3, h4, h5, h6 {
 	grid-template-rows:1fr 1fr 1fr 1fr;
 }
 .header {
-
-	/* grid-row-start: 1;
-	grid-column-start: 1; */
 	border-radius: 20px 20px 0 0;
 	background-color: aqua;
 	width: auto;
@@ -63,3 +60,6 @@ h3, h4, h5, h6 {
 	text-align: left;
 }
 
+.hr {
+	width: 100%;
+}
