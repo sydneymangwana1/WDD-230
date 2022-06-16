@@ -67,3 +67,8 @@ h3, h4, h5, h6 {
 .lesson02-mainbody{
 	padding: 100px;
 }
+
+ul {
+	list-style: none;
+	display: inline-flex;
+}
