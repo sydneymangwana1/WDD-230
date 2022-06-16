@@ -48,7 +48,7 @@ h3, h4, h5, h6 {
 
 .myPic {
 	height: auto;
-	width: 200px;
+	width: 10%;
 	box-shadow: 0 0 30px rgb(216, 177, 177);
 	float: right;
 } 
@@ -59,7 +59,7 @@ h3, h4, h5, h6 {
 }
 
 .warmac-description, .zamoto-description, .asos-description {
-	width: 50%;
+	width: 40%;
 	text-align: left;
 }
 
