@@ -9,3 +9,7 @@ let seconds = d.getSeconds();
 let time = hour + ":" + minutes + ":" + seconds;
 let fulldate =  month + "/" + day + "/" + fullyear + " " + time; 
 document.getElementById("lastupdated").textContent = fulldate;
+
+function toggleMenu() {
+	document.getElementsByClassName("navigation")[0].classList.toggle("responsive");	
+}
