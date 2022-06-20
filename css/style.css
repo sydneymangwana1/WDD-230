@@ -63,7 +63,7 @@ h3, h4, h5, h6 {
 	width: 100%;
 }
 
-.lesson02-mainbody{
+.lesson02-mainbody {
 	padding: 100px;
 }
 
@@ -77,13 +77,9 @@ nav {
 	background-color: aqua;
 }
 
-
-
 ul {
 	list-style: none;
 }
-
-	
 
 .navigation {
 	display: flex;
