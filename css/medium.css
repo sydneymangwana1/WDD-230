@@ -1,15 +1,63 @@
-
 @media only screen and (max-width: 32.5em) {
-	.week1-content {
-		display:grid;
-		grid-template-columns: 1fr 1fr;
+
+    .week1-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .header-content {
+        padding: 2px;
+        width: 30rem;
+    }
+
+    .footer-content {
+        padding: 0px;
+        width: 23rem;
+    }
+
+    .typography {
+        width: 30rem;
+    }
+
+    .myPic {
+        align-items: center;
+    }
+
+    nav {
+        margin: 0 auto;
+        max-width: 760px;
+        background-color: aqua;
+    }
+
+    .navigation {
+        list-style: none;
+        text-align: center;
+        padding: 0;
+    }
+
+    .navigation li:first-child {
+        display: block;
+    }
+
+    .navigation li {
+        display: none
+    }
+
+    .navigation a {
+        display: block;
+        color: #fff;
+        padding: 0.75rem;
+        text-align: center;
+        text-decoration: none;
+
+    }
+
+    .navigation a:hover {
+		
 	}
 
-	.header-content, .footer-content {
-		padding: 2px;
-	}
+    .responsive li {
+        display: block;
+    }
 
-	.myPic {
-		align-items: center;
-	}
 }
