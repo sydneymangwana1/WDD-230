@@ -25,24 +25,20 @@
 
     nav {
         margin: 0 auto;
-        max-width: 760px;
         background-color: aqua;
     }
+    
 
     .navigation {
-        list-style: none;
+
         text-align: center;
         padding: 0;
     }
 
     .navigation li:first-child {
         display: block;
-    }
-
-    .navigation li {
-        display: none
-    }
-
+    }        
+    
     .navigation a {
         display: block;
         color: #fff;
@@ -51,10 +47,6 @@
         text-decoration: none;
 
     }
-
-    .navigation a:hover {
-		
-	}
 
     .responsive li {
         display: block;
