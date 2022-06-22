@@ -9,6 +9,10 @@ header, footer {
 	width: 5rem;
 }
 
+.current-date {
+
+}
+
 nav button {
 	margin: .2rem 2vw;
 	background:transparent;
