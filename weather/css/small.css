@@ -9,9 +9,35 @@ header, footer {
 	width: 5rem;
 }
 
-.current-date {
-
+.herosection {
+	position: relative;
 }
+
+.heroimage {
+	width: 100%;
+}
+
+.stats {
+	position:absolute;
+	border: 1px #333 solid;
+	background-color:green;
+	width: 20%;
+	height: auto;
+	opacity: .7;
+	margin: 10px;
+	padding: 1rem;
+	text-align: center;
+	color: white;
+	top: 5px;
+}
+
+.forecast {
+	display: none;
+}
+
+
+
+/* The below section is all about the navigation */
 
 nav button {
 	margin: .2rem 2vw;
@@ -56,3 +82,5 @@ nav ul.open {display: block;}
 
 #harmburger-button.open span:nth-child(1) {display: none;}
 #harmburger-button.open span:nth-child(2) {display: block;}
+
+/* End of the navigation */

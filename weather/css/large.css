@@ -4,4 +4,22 @@
 	nav ul li a  {
 		padding: .5rem 1rem;
 	}
+
+	.stats {
+		position:absolute;
+		background-color:green;
+		width: 15%;
+		top: 10px;
+		margin: 10px;
+		opacity: .5;
+	}
+
+	.forecast {
+		display: block;
+		margin: auto;
+		width: 21%;
+		padding: 10px;
+		justify-self: center;
+	}
 } /*end large */
+

@@ -11,3 +11,5 @@ let t = d.getDate();
 
 let fulldate =  day + ", " + t + " " + month + " " + fullyear; 
 document.getElementById("current-date").textContent = fulldate;
+
+// Saturday = Preston Pancakes in the Park! 9:00a.m Saturday at the city park.
