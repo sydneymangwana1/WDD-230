@@ -51,6 +51,25 @@ table, th,td {
 }
 
 
+.text-article {
+	margin: 5px;
+	position: relative;
+	text-align: justify;
+}
+
+.img-article {
+	float: right;
+	shape-outside: url(article.jpg);
+	margin-left: 20px;
+	shape-margin: 20px;
+}
+
+.map{
+	font:white;
+	padding: 20px;
+	background-color: rgb(187, 182, 182);
+}
+
 
 /* The below section is all about the navigation */
 
