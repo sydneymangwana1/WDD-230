@@ -18,7 +18,7 @@ header, footer {
 }
 
 .stats {
-	position:absolute;
+	position:relative;
 	border: 1px #333 solid;
 	background-color:green;
 	width: 20%;
