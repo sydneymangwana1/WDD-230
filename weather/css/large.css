@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 64rem) {
+@media only screen and (min-width: 720px) {
 
 	#harmburger-button {display: none;}
 	#menu-primary {display: inline;}
@@ -11,8 +11,9 @@
 	
 	nav ul li a  {
 		padding: .5rem 1rem;
+		border-left:  1px solid rgba(0,0,0,0.5);
+		border-top: none;
 	}
-
 
 	.stats {
 		position:absolute;
@@ -31,4 +32,5 @@
 		justify-self: center;
 	}
 }
+
 

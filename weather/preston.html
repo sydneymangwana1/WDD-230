@@ -29,14 +29,19 @@
 	<main>
 		<h2>Preston Idaho</h2>
 		<div class="herosection">
-			<img class="heroimage" src="images/heroimage.jpg" alt="hero image" width="2500">
+			<picture>
+				<source src="images/hero-image_1280.jpg" media="(min-width:720px)">
+				<source srcset="images/hero-image_600.jpg" media="(min-width:650px)">
+				<img class="heroimage" src="images/hero-image_280.jpg" alt="hero image">				
+			</picture>
 			<div class="stats">
 				<h3>Weather Summary</h3>
 				<hr>
-				<p>Currently: Sunny</p>
-				<p>High: 76 degrees</p>
-				<p>Wind Chill: </p>
-				<p>Humidity Speed: 5 mph</p>
+				<p>Currently:<span id="currently"> Sunny</span></p>
+				<p>High:<span id="high"> 76 &#8457</span></p>
+				<p>Wind Chill: <span id="wind-chill"> </span><span id="farnh"> &#8457</span></p> 
+				<p>Humidity:<span id="humidity"> 50%</span></p>
+				<p>Wind Speed:<span id="wind-speed"> 5 mph</span></p>
 			</div>
 		</div>
 		<div class="forecast">

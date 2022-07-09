@@ -13,3 +13,9 @@ let fulldate =  day + ", " + t + " " + month + " " + fullyear;
 document.getElementById("current-date").textContent = fulldate;
 
 // Saturday = Preston Pancakes in the Park! 9:00a.m Saturday at the city park.
+
+//Wind Chill Calculation
+let temp = 9;
+let speed = (4.7)^0.16;
+let wc = 35.74 + (0.6215 * temp) - (35.75 *speed) + (0.4275 *(t)*(speed));
+document.getElementById("wind-chill").textContent = wc;

@@ -23,12 +23,14 @@ header, footer {
 	background-color:green;
 	width: 20%;
 	height: auto;
-	opacity: .7;
-	margin: 10px;
-	padding: 1rem;
+	opacity: .5;
 	text-align: center;
+	color: yellow;
+
+}
+
+#currently, #high, #wind-chill, #wind-speed, #humidity, #farnh {
 	color: white;
-	top: 5px;
 }
 
 .forecast {
@@ -69,6 +71,8 @@ table, th,td {
 	padding: 20px;
 	background-color: rgb(187, 182, 182);
 }
+
+
 
 
 /* The below section is all about the navigation */

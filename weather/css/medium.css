@@ -1,30 +1,37 @@
-@media only screen and (min-width:505rem) {
+@media only screen and (min-width: 650px) and (max-width:719px) {
 
-	nav button {display: none;}
+	#harmburger-button {display: none;}
+	#menu-primary {display: inline;}
 
-	nav ul#menu-primary {
-		display: flex;
-		margin-left: 2vw;
-		border-left: 1px solid rgba(0,0,0,0.3) ;
+	nav ul li{
+		display: inline-block;
 	}
 
-	nav ul li a {
-		border: none;
-		border-right: 1px solid rgba(0,0,0,0.3);
+	nav ul li a  {
+		padding: .5rem 1rem;
+		border-left:  1px solid rgba(0,0,0,0.5);
+		border-top: none;
+	}
+
+	nav ul li a  {
+		padding: .5rem 1rem;
+	}
+
+
+	.stats {
+		position:absolute;
+		background-color:green;
+		width: 15%;
+		top: 10px;
+		margin: 10px;
+		opacity: .5;
 	}
 
 	.forecast {
 		display: block;
 		margin: auto;
-		width: 15%;
-		padding: 1px;
+		width: 21%;
+		padding: 10px;
 		justify-self: center;
 	}
-
-		.stats{
-			background-color: yellow;
-		}
-
-} /*end medium */
-
-
+}
