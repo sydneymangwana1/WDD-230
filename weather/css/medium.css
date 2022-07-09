@@ -21,6 +21,9 @@
 		justify-self: center;
 	}
 
+		.stats{
+			background-color: yellow;
+		}
 
 } /*end medium */
 

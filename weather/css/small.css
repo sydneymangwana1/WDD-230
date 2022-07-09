@@ -108,8 +108,13 @@ nav ul li.menu-home a {
 	color: #fff;
 }
 
-nav ul {display: none;}
-nav ul.open {display: block;}
+nav ul {
+	display: none;
+}
+
+nav ul.open {
+	display: block;
+}
 
 #harmburger-button span:nth-child(1) {display: block;}
 #harmburger-button span:nth-child(2) {display: none;}
