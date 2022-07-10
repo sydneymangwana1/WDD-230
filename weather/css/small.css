@@ -72,7 +72,13 @@ table, th,td {
 	background-color: rgb(187, 182, 182);
 }
 
-
+.gallery {
+	display: grid;
+	grid-template-columns: 1fr;
+	width: 410px;
+	padding: 1rem;
+	justify-content: center;
+}
 
 
 /* The below section is all about the navigation */
