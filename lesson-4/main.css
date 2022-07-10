@@ -3,6 +3,10 @@ body {
     margin: 0 auto;
   
 }
+
+h1{
+    text-align: center;
+}
 main{
      
     display: flex;
@@ -14,7 +18,7 @@ img{
     border: 1px solid red;
     padding: 2px;
     filter: blur(0em);
-    transition: filter 0.5s;
+    transition: filter .5s;
 }
 
 img[data-src]{
