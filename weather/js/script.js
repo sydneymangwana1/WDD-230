@@ -18,4 +18,5 @@ document.getElementById("current-date").textContent = fulldate;
 let temp = 9;
 let speed = (4.7)^0.16;
 let wc = 35.74 + (0.6215 * temp) - (35.75 *speed) + (0.4275 *(t)*(speed));
+wc = Math.round(wc);
 document.getElementById("wind-chill").textContent = wc;
