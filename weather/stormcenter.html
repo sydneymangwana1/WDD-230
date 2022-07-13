@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>Page Title</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' href='css/small.css'> 
+	<link rel='stylesheet' href='css/medium.css'> 
+	<link rel='stylesheet' href='css/large.css'> 
+</head>
+	<body>
+	<header>
+		<img class="logo" src="images/logo.png" alt="preston logo">
+		<h1>The Weather Site</h1>
+		<div class="motto">The weather site catch phrase/motto</div>
+	</header>
+	<nav>
+		<button id="harmburger-button"><span>&#9776;</span><span>X</span></button>
+		<ul id="menu-primary">
+			<li class="menu-home"><a href="#">Home</a></li>
+			<li class="menu-preston"><a href="#">Preston</a></li>
+			<li class="menu-soda"><a href="#">Soda Springs</a></li>
+			<li class="menu-fish"><a href="#">Fish Haven</a></li>
+			<li class="menu-storm"><a href="#">Storm Center</a></li>
+			<li class="menu-gallery"><a href="gallery-7.html">Gallery</a></li>
+		</ul>
+	</nav>
+	<main>
+		<h2>Weather Service Gallery</h2>
+		<form action="">
+			<fieldset>
+				<label>Full name* <input type="text" name="fname" required></label>
+				<label>Email* <input type="email" name="email" placeholder="email@someone.com" required></label>
+				<label>Phone number* <input type="tel" name="tel" required></label>
+				<label>Zip code <input type="number" name="zip"></label>
+			</fieldset>
+			<fieldset>
+				<legend>Storm</legend>
+				<label>Date <input type="date" name="date"></label>
+				<label>Type <input type="list" name=""></label>
+				<label>Severity (between 1 and 10)<input type="range" name="points"></label>
+				<label>Region
+				<select name="region">
+					<option value="">Select Region</option>
+					<option value="prestone">Preston</option>
+					<option value="soda">Soda Springs</option>
+					<option value="fishhaven">Fish Haven</option>
+				</select></label>
+			</fieldset>
+			<fieldset>
+				<legend>User in-danger level</legend>
+				<label class="sbs"><input type="radio" name="audience" value="yes">yes</label>
+				<label class="sbs"><input type="radio" name="audience" value="no">no</label>
+			</fieldset>			
+			<label>Comments <input type="textarea"></label>
+			<input class="submitBtn" type="submit" value="Propose My Course">
+		</form>
+	</main>
+	<footer>
+		<h3>&copy; The Weather Site| Attributions | Sydney Mangwana </h3>
+		<span id="current-date"></span> 
+	</footer>	
+</body>
+<script src='js/togglemenu.js'></script>
+<script src='js/script.js'></script>
+<script src='js/media.js' defer></script>
+</html>
