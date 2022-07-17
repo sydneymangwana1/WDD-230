@@ -81,6 +81,30 @@ table, th,td {
 }
 
 
+/* The below section is for the form design */
+ form fieldset {
+	margin: 2rem;
+	border:  1px solid blue;
+	border-radius: 10px;
+	padding: 0.5rem;
+	 
+ }
+
+ form legend {
+	color: blue;
+	margin: 0 1rem;
+	padding: 0 .5rem;
+ }
+
+.top {
+	display: block;
+	padding: .5rem 2%;
+	text-align: center;
+
+ }
+
+
+
 /* The below section is all about the navigation */
 
 nav button {
