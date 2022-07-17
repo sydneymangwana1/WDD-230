@@ -81,7 +81,8 @@ table, th,td {
 }
 
 
-/* The below section is for the form design */
+/* -------------- form -------------- */
+
  form fieldset {
 	margin: 2rem;
 	border:  1px solid blue;
