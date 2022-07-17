@@ -31,17 +31,17 @@
 		<form action="thanks.html  " >
 			<fieldset>
 				<legend>Personal Details</legend>
-				<label>Full name* <input type="text" name="fname" required></label>
-				<label>Email* <input type="email" name="email" placeholder="email@someone.com" required></label>
-				<label>Phone number* <input type="tel" name="tel" required></label>
-				<label>Zip code <input type="number" name="zip"></label>
+				<label class="top">Full name* <input type="text" name="fname" required></label>
+				<label class="top">Email* <input type="email" name="email" placeholder="email@someone.com" required></label>
+				<label class="top">Phone number* <input type="tel" name="tel" required></label>
+				<label class="top">Zip code <input type="number" name="zip"></label>
 			</fieldset>
 			<fieldset>
 				<legend>Storm</legend>
-				<label>Date <input type="date" name="date"></label>
-				<label>Type <input type="list" name=""></label>
-				<label>Severity (between 1 and 10)<input type="range" name="points"></label>
-				<label>Region
+				<label class="top">Date <input type="date" name="date"></label>
+				<label class="top">Type <input type="list" name=""></label>
+				<label class="top">Severity (between 1 and 10)<input type="range" name="points"></label>
+				<label class="top">Region
 				<select name="region">
 					<option value="">Select Region</option>
 					<option value="prestone">Preston</option>
@@ -54,7 +54,7 @@
 				<label class="sbs"><input type="radio" name="audience" value="yes">yes</label>
 				<label class="sbs"><input type="radio" name="audience" value="no">no</label>
 			</fieldset>			
-			<label>Comments <input type="textarea"></label>
+			<label class="top">Comments <input type="textarea"></label>
 			<input class="submitBtn" type="submit" value="Propose My Course">
 		</form>
 	</main>

@@ -96,13 +96,18 @@ table, th,td {
 	padding: 0 .5rem;
  }
 
-.top {
+form label.top {
 	display: block;
 	padding: .5rem 2%;
-	text-align: center;
+	text-align: left;
 
  }
 
+ form label.top input, form label.select {
+	display: block;
+ }
+
+ 
 
 
 /* The below section is all about the navigation */
