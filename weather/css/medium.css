@@ -17,6 +17,18 @@
 		padding: .5rem 1rem;
 	}
 
+	/* -------------- form -------------- */
+	 form input.submitBtn {
+
+		background-color: greenyellow;
+		border-radius: 1rem;
+		width: 40%;
+	 }
+
+	 /*------------------------------------------------------------------------------*/
+
+
+
 
 	.stats {
 		position:absolute;

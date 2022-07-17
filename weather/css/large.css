@@ -16,48 +16,16 @@
 	}
 
 	/*---------------------Form-Start-----------------------*/
-	/* -------------- form -------------- */
 
-	form fieldset {
-		margin: 2rem;
-		border:  1px solid blue;
-		border-radius: 10px;
-		padding: 0.5rem;
-		 
-	 }
-	
-	 form legend {
-		color: blue;
-		margin: 0 1rem;
-		padding: 0 .5rem;
-	 }
-	
-	form label.top, .other {
-		display: block;
-		padding: .5rem 2%;
-		text-align: left;	
-	 }
 
-	
-	 form label.top input, form label.select {
+	form label.top input, form label.select{
 		display: inline-block;
-		width: 200px;
-	 }
-
-	
-	 form label.sbs {
-		padding: .4rem 0;	
-	 }
-	
-	 form input.submitBtn {
-		width: 20%;
-	}
-	
-	label {
-		display: inline-block;
-		width: 200px;
+		width: 10%;
 	}
 
+	form input.submitBtn {
+		width: 10%;
+	}
 	/*---------------------Form-End -----------------------*/
 	.stats {
 		position:absolute;
