@@ -17,17 +17,11 @@
 
 	/*---------------------Form-Start-----------------------*/
 
-
-	form label.top input, form label.select{
-		display: inline-block;
-		width: 10%;
+	form label.sbs {
+		padding: .4 rem 0;
 	}
 
-	form input.submitBtn {
-		width: 10%;
-	}
 
-	
 	/*---------------------Form-End -----------------------*/
 	.stats {
 		position:absolute;

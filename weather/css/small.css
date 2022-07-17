@@ -101,10 +101,10 @@ form label.top {
 	display: block;
 	padding: .5rem 2%;
 	text-align: left;
-
  }
 
  form label.top input, form label.select {
+	-webkit-appearance: none;
 	display: block;
 	font-size: 1rem;
 	border-radius:5px;
@@ -118,6 +118,7 @@ form label.top {
  form label.sbs {
 	display: block;
 	font-size: 1rem;
+	padding-top: 1rem;
 	padding: .75rem;
 	color: #555;
 	width: 80%;
@@ -138,6 +139,7 @@ form label.top {
 	margin: 0 0 2rem 2%;
 	border-radius: 1rem;
 	width: 80%;
+	max-width: 20rem;
  }
 
 form label.top input:required {
