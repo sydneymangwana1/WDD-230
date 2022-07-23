@@ -129,6 +129,7 @@ form label.top {
 	display: block;
 	padding: .75rem;
 	color: #555;
+	height: 44px;
  }
 
  form input.submitBtn {
